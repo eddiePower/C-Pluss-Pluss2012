@@ -1,0 +1,209 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89DDC300152AA2D7006D2467 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89DDC2FF152AA2D7006D2467 /* main.cpp */; };
+		89DDC302152AA2D7006D2467 /* Week6Lab.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 89DDC301152AA2D7006D2467 /* Week6Lab.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		89DDC2F9152AA2D7006D2467 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				89DDC302152AA2D7006D2467 /* Week6Lab.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		89DDC2FB152AA2D7006D2467 /* Week6Lab */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Week6Lab; sourceTree = BUILT_PRODUCTS_DIR; };
+		89DDC2FF152AA2D7006D2467 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		89DDC301152AA2D7006D2467 /* Week6Lab.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Week6Lab.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89DDC2F8152AA2D7006D2467 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89DDC2F0152AA2D6006D2467 = {
+			isa = PBXGroup;
+			children = (
+				89DDC2FE152AA2D7006D2467 /* Week6Lab */,
+				89DDC2FC152AA2D7006D2467 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89DDC2FC152AA2D7006D2467 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89DDC2FB152AA2D7006D2467 /* Week6Lab */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89DDC2FE152AA2D7006D2467 /* Week6Lab */ = {
+			isa = PBXGroup;
+			children = (
+				89DDC2FF152AA2D7006D2467 /* main.cpp */,
+				89DDC301152AA2D7006D2467 /* Week6Lab.1 */,
+			);
+			path = Week6Lab;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89DDC2FA152AA2D7006D2467 /* Week6Lab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89DDC305152AA2D7006D2467 /* Build configuration list for PBXNativeTarget "Week6Lab" */;
+			buildPhases = (
+				89DDC2F7152AA2D7006D2467 /* Sources */,
+				89DDC2F8152AA2D7006D2467 /* Frameworks */,
+				89DDC2F9152AA2D7006D2467 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Week6Lab;
+			productName = Week6Lab;
+			productReference = 89DDC2FB152AA2D7006D2467 /* Week6Lab */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89DDC2F2152AA2D7006D2467 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Monash University Student";
+			};
+			buildConfigurationList = 89DDC2F5152AA2D7006D2467 /* Build configuration list for PBXProject "Week6Lab" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 89DDC2F0152AA2D6006D2467;
+			productRefGroup = 89DDC2FC152AA2D7006D2467 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89DDC2FA152AA2D7006D2467 /* Week6Lab */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89DDC2F7152AA2D7006D2467 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89DDC300152AA2D7006D2467 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		89DDC303152AA2D7006D2467 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		89DDC304152AA2D7006D2467 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		89DDC306152AA2D7006D2467 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		89DDC307152AA2D7006D2467 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89DDC2F5152AA2D7006D2467 /* Build configuration list for PBXProject "Week6Lab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89DDC303152AA2D7006D2467 /* Debug */,
+				89DDC304152AA2D7006D2467 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89DDC305152AA2D7006D2467 /* Build configuration list for PBXNativeTarget "Week6Lab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89DDC306152AA2D7006D2467 /* Debug */,
+				89DDC307152AA2D7006D2467 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89DDC2F2152AA2D7006D2467 /* Project object */;
+}

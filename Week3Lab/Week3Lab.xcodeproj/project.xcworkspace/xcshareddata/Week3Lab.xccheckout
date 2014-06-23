@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>769D6B48-7962-47E6-B7D8-249C06FF6739</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Week3Lab</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F1B84B98-0718-4A32-AB48-5A7A0B47AE76</key>
+		<string>https://github.com/eddiePower/C++-Uni-Work-XcodeProjects.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>C++ 2012/Week3Lab/Week3Lab.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F1B84B98-0718-4A32-AB48-5A7A0B47AE76</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/eddiePower/C++-Uni-Work-XcodeProjects.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F1B84B98-0718-4A32-AB48-5A7A0B47AE76</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F1B84B98-0718-4A32-AB48-5A7A0B47AE76</string>
+			<key>IDESourceControlWCCName</key>
+			<string>XcodeProjects</string>
+		</dict>
+	</array>
+</dict>
+</plist>

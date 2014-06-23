@@ -1,0 +1,222 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8912A169153098D70056792F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8912A168153098D70056792F /* main.cpp */; };
+		8912A16B153098D70056792F /* MonsterBattle.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8912A16A153098D70056792F /* MonsterBattle.1 */; };
+		8912A1731530996A0056792F /* Monster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8912A1721530996A0056792F /* Monster.cpp */; };
+		89AFF69F154C3AB6002EADCF /* MagicMonster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89AFF69E154C3AB6002EADCF /* MagicMonster.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8912A162153098D70056792F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				8912A16B153098D70056792F /* MonsterBattle.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8912A164153098D70056792F /* MonsterBattle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MonsterBattle; sourceTree = BUILT_PRODUCTS_DIR; };
+		8912A168153098D70056792F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8912A16A153098D70056792F /* MonsterBattle.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = MonsterBattle.1; sourceTree = "<group>"; };
+		8912A1711530995B0056792F /* Monster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Monster.h; sourceTree = "<group>"; };
+		8912A1721530996A0056792F /* Monster.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Monster.cpp; sourceTree = "<group>"; };
+		89AFF69E154C3AB6002EADCF /* MagicMonster.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MagicMonster.cpp; sourceTree = "<group>"; };
+		89AFF6A0154C3AC9002EADCF /* MagicMonster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicMonster.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8912A161153098D70056792F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8912A159153098D70056792F = {
+			isa = PBXGroup;
+			children = (
+				8912A167153098D70056792F /* MonsterBattle */,
+				8912A165153098D70056792F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8912A165153098D70056792F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8912A164153098D70056792F /* MonsterBattle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8912A167153098D70056792F /* MonsterBattle */ = {
+			isa = PBXGroup;
+			children = (
+				8912A168153098D70056792F /* main.cpp */,
+				8912A1711530995B0056792F /* Monster.h */,
+				8912A1721530996A0056792F /* Monster.cpp */,
+				89AFF69E154C3AB6002EADCF /* MagicMonster.cpp */,
+				89AFF6A0154C3AC9002EADCF /* MagicMonster.h */,
+				8912A16A153098D70056792F /* MonsterBattle.1 */,
+			);
+			path = MonsterBattle;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8912A163153098D70056792F /* MonsterBattle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8912A16E153098D70056792F /* Build configuration list for PBXNativeTarget "MonsterBattle" */;
+			buildPhases = (
+				8912A160153098D70056792F /* Sources */,
+				8912A161153098D70056792F /* Frameworks */,
+				8912A162153098D70056792F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MonsterBattle;
+			productName = MonsterBattle;
+			productReference = 8912A164153098D70056792F /* MonsterBattle */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8912A15B153098D70056792F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Monash University Student";
+			};
+			buildConfigurationList = 8912A15E153098D70056792F /* Build configuration list for PBXProject "MonsterBattle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8912A159153098D70056792F;
+			productRefGroup = 8912A165153098D70056792F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8912A163153098D70056792F /* MonsterBattle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8912A160153098D70056792F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8912A169153098D70056792F /* main.cpp in Sources */,
+				8912A1731530996A0056792F /* Monster.cpp in Sources */,
+				89AFF69F154C3AB6002EADCF /* MagicMonster.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8912A16C153098D70056792F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8912A16D153098D70056792F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8912A16F153098D70056792F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8912A170153098D70056792F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8912A15E153098D70056792F /* Build configuration list for PBXProject "MonsterBattle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8912A16C153098D70056792F /* Debug */,
+				8912A16D153098D70056792F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8912A16E153098D70056792F /* Build configuration list for PBXNativeTarget "MonsterBattle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8912A16F153098D70056792F /* Debug */,
+				8912A170153098D70056792F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8912A15B153098D70056792F /* Project object */;
+}

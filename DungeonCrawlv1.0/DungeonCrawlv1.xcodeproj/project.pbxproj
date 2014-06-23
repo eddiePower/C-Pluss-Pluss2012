@@ -1,0 +1,252 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8907EE3415639447009BCD48 /* Potion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8907EE3315639447009BCD48 /* Potion.cpp */; };
+		89154FCF155B898100B54336 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89154FCE155B898100B54336 /* main.cpp */; };
+		89154FD1155B898100B54336 /* DungeonCrawlv1.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 89154FD0155B898100B54336 /* DungeonCrawlv1.1 */; };
+		89154FD9155B8A9200B54336 /* GameItem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89154FD8155B8A9200B54336 /* GameItem.cpp */; };
+		89154FDC155B8DE500B54336 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89154FDB155B8DE500B54336 /* Player.cpp */; };
+		89154FE3155BC1C800B54336 /* Room.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89154FE2155BC1C800B54336 /* Room.cpp */; };
+		897DF27C156155BD0085E520 /* Monster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 897DF27B156155BD0085E520 /* Monster.cpp */; };
+		897DF27F156159A70085E520 /* BossMonster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 897DF27E156159A70085E520 /* BossMonster.cpp */; };
+		89C20EBF1562160A009EC673 /* Treasure.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89C20EBE1562160A009EC673 /* Treasure.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		89154FC8155B898100B54336 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				89154FD1155B898100B54336 /* DungeonCrawlv1.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8907EE32156393F0009BCD48 /* Potion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Potion.h; sourceTree = "<group>"; };
+		8907EE3315639447009BCD48 /* Potion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Potion.cpp; sourceTree = "<group>"; };
+		89154FCA155B898100B54336 /* DungeonCrawlv1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DungeonCrawlv1; sourceTree = BUILT_PRODUCTS_DIR; };
+		89154FCE155B898100B54336 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		89154FD0155B898100B54336 /* DungeonCrawlv1.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = DungeonCrawlv1.1; sourceTree = "<group>"; };
+		89154FD7155B89C100B54336 /* GameItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameItem.h; sourceTree = "<group>"; };
+		89154FD8155B8A9200B54336 /* GameItem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameItem.cpp; sourceTree = "<group>"; };
+		89154FDA155B8C1500B54336 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		89154FDB155B8DE500B54336 /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		89154FDD155BC18300B54336 /* Room.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Room.h; sourceTree = "<group>"; };
+		89154FE2155BC1C800B54336 /* Room.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Room.cpp; sourceTree = "<group>"; };
+		897DF279156154EA0085E520 /* Monster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Monster.h; sourceTree = "<group>"; };
+		897DF27B156155BD0085E520 /* Monster.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Monster.cpp; sourceTree = "<group>"; };
+		897DF27D156159450085E520 /* BossMonster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BossMonster.h; sourceTree = "<group>"; };
+		897DF27E156159A70085E520 /* BossMonster.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BossMonster.cpp; sourceTree = "<group>"; };
+		89C20EBC156215AB009EC673 /* Treasure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Treasure.h; sourceTree = "<group>"; };
+		89C20EBE1562160A009EC673 /* Treasure.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Treasure.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89154FC7155B898100B54336 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89154FBF155B898100B54336 = {
+			isa = PBXGroup;
+			children = (
+				89154FCD155B898100B54336 /* DungeonCrawlv1 */,
+				89154FCB155B898100B54336 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89154FCB155B898100B54336 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89154FCA155B898100B54336 /* DungeonCrawlv1 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89154FCD155B898100B54336 /* DungeonCrawlv1 */ = {
+			isa = PBXGroup;
+			children = (
+				89154FCE155B898100B54336 /* main.cpp */,
+				8907EE32156393F0009BCD48 /* Potion.h */,
+				8907EE3315639447009BCD48 /* Potion.cpp */,
+				89C20EBC156215AB009EC673 /* Treasure.h */,
+				89C20EBE1562160A009EC673 /* Treasure.cpp */,
+				897DF27D156159450085E520 /* BossMonster.h */,
+				897DF27E156159A70085E520 /* BossMonster.cpp */,
+				897DF279156154EA0085E520 /* Monster.h */,
+				897DF27B156155BD0085E520 /* Monster.cpp */,
+				89154FDD155BC18300B54336 /* Room.h */,
+				89154FE2155BC1C800B54336 /* Room.cpp */,
+				89154FD7155B89C100B54336 /* GameItem.h */,
+				89154FD8155B8A9200B54336 /* GameItem.cpp */,
+				89154FDA155B8C1500B54336 /* Player.h */,
+				89154FDB155B8DE500B54336 /* Player.cpp */,
+				89154FD0155B898100B54336 /* DungeonCrawlv1.1 */,
+			);
+			path = DungeonCrawlv1;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89154FC9155B898100B54336 /* DungeonCrawlv1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89154FD4155B898100B54336 /* Build configuration list for PBXNativeTarget "DungeonCrawlv1" */;
+			buildPhases = (
+				89154FC6155B898100B54336 /* Sources */,
+				89154FC7155B898100B54336 /* Frameworks */,
+				89154FC8155B898100B54336 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DungeonCrawlv1;
+			productName = DungeonCrawlv1;
+			productReference = 89154FCA155B898100B54336 /* DungeonCrawlv1 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89154FC1155B898100B54336 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Monash University Student";
+			};
+			buildConfigurationList = 89154FC4155B898100B54336 /* Build configuration list for PBXProject "DungeonCrawlv1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 89154FBF155B898100B54336;
+			productRefGroup = 89154FCB155B898100B54336 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89154FC9155B898100B54336 /* DungeonCrawlv1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89154FC6155B898100B54336 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89154FCF155B898100B54336 /* main.cpp in Sources */,
+				89154FD9155B8A9200B54336 /* GameItem.cpp in Sources */,
+				89154FDC155B8DE500B54336 /* Player.cpp in Sources */,
+				89154FE3155BC1C800B54336 /* Room.cpp in Sources */,
+				897DF27C156155BD0085E520 /* Monster.cpp in Sources */,
+				897DF27F156159A70085E520 /* BossMonster.cpp in Sources */,
+				89C20EBF1562160A009EC673 /* Treasure.cpp in Sources */,
+				8907EE3415639447009BCD48 /* Potion.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		89154FD2155B898100B54336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		89154FD3155B898100B54336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		89154FD5155B898100B54336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		89154FD6155B898100B54336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89154FC4155B898100B54336 /* Build configuration list for PBXProject "DungeonCrawlv1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89154FD2155B898100B54336 /* Debug */,
+				89154FD3155B898100B54336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89154FD4155B898100B54336 /* Build configuration list for PBXNativeTarget "DungeonCrawlv1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89154FD5155B898100B54336 /* Debug */,
+				89154FD6155B898100B54336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89154FC1155B898100B54336 /* Project object */;
+}

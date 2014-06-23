@@ -1,0 +1,239 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89D590411558D8F5007E41AA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89D590401558D8F5007E41AA /* main.cpp */; };
+		89D590431558D8F5007E41AA /* Week10Lab.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 89D590421558D8F5007E41AA /* Week10Lab.1 */; };
+		89D5904B1558E61A007E41AA /* Monster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89D5904A1558E61A007E41AA /* Monster.cpp */; };
+		89D5904E1558E833007E41AA /* Enemy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89D5904D1558E833007E41AA /* Enemy.cpp */; };
+		89D590511558E945007E41AA /* Invader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89D590501558E945007E41AA /* Invader.cpp */; };
+		89D590541558EA12007E41AA /* Mothership.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89D590531558EA12007E41AA /* Mothership.cpp */; };
+		89D590571558EB57007E41AA /* SpawnManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89D590561558EB57007E41AA /* SpawnManager.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		89D5903A1558D8F5007E41AA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				89D590431558D8F5007E41AA /* Week10Lab.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		89D5903C1558D8F5007E41AA /* Week10Lab */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Week10Lab; sourceTree = BUILT_PRODUCTS_DIR; };
+		89D590401558D8F5007E41AA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		89D590421558D8F5007E41AA /* Week10Lab.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Week10Lab.1; sourceTree = "<group>"; };
+		89D590491558E5BB007E41AA /* Monster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Monster.h; sourceTree = "<group>"; };
+		89D5904A1558E61A007E41AA /* Monster.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Monster.cpp; sourceTree = "<group>"; };
+		89D5904C1558E7E9007E41AA /* Enemy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Enemy.h; sourceTree = "<group>"; };
+		89D5904D1558E833007E41AA /* Enemy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Enemy.cpp; sourceTree = "<group>"; };
+		89D5904F1558E8F1007E41AA /* Invader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Invader.h; sourceTree = "<group>"; };
+		89D590501558E945007E41AA /* Invader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Invader.cpp; sourceTree = "<group>"; };
+		89D590521558E9C7007E41AA /* Mothership.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mothership.h; sourceTree = "<group>"; };
+		89D590531558EA12007E41AA /* Mothership.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Mothership.cpp; sourceTree = "<group>"; };
+		89D590551558EA55007E41AA /* SpawnManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpawnManager.h; sourceTree = "<group>"; };
+		89D590561558EB57007E41AA /* SpawnManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SpawnManager.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89D590391558D8F5007E41AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89D590311558D8F4007E41AA = {
+			isa = PBXGroup;
+			children = (
+				89D5903F1558D8F5007E41AA /* Week10Lab */,
+				89D5903D1558D8F5007E41AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89D5903D1558D8F5007E41AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89D5903C1558D8F5007E41AA /* Week10Lab */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89D5903F1558D8F5007E41AA /* Week10Lab */ = {
+			isa = PBXGroup;
+			children = (
+				89D590401558D8F5007E41AA /* main.cpp */,
+				89D590491558E5BB007E41AA /* Monster.h */,
+				89D5904A1558E61A007E41AA /* Monster.cpp */,
+				89D5904C1558E7E9007E41AA /* Enemy.h */,
+				89D5904D1558E833007E41AA /* Enemy.cpp */,
+				89D590521558E9C7007E41AA /* Mothership.h */,
+				89D590531558EA12007E41AA /* Mothership.cpp */,
+				89D590551558EA55007E41AA /* SpawnManager.h */,
+				89D590561558EB57007E41AA /* SpawnManager.cpp */,
+				89D5904F1558E8F1007E41AA /* Invader.h */,
+				89D590501558E945007E41AA /* Invader.cpp */,
+				89D590421558D8F5007E41AA /* Week10Lab.1 */,
+			);
+			path = Week10Lab;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89D5903B1558D8F5007E41AA /* Week10Lab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89D590461558D8F5007E41AA /* Build configuration list for PBXNativeTarget "Week10Lab" */;
+			buildPhases = (
+				89D590381558D8F5007E41AA /* Sources */,
+				89D590391558D8F5007E41AA /* Frameworks */,
+				89D5903A1558D8F5007E41AA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Week10Lab;
+			productName = Week10Lab;
+			productReference = 89D5903C1558D8F5007E41AA /* Week10Lab */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89D590331558D8F4007E41AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Monash University Student";
+			};
+			buildConfigurationList = 89D590361558D8F4007E41AA /* Build configuration list for PBXProject "Week10Lab" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 89D590311558D8F4007E41AA;
+			productRefGroup = 89D5903D1558D8F5007E41AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89D5903B1558D8F5007E41AA /* Week10Lab */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89D590381558D8F5007E41AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89D590411558D8F5007E41AA /* main.cpp in Sources */,
+				89D5904B1558E61A007E41AA /* Monster.cpp in Sources */,
+				89D5904E1558E833007E41AA /* Enemy.cpp in Sources */,
+				89D590511558E945007E41AA /* Invader.cpp in Sources */,
+				89D590541558EA12007E41AA /* Mothership.cpp in Sources */,
+				89D590571558EB57007E41AA /* SpawnManager.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		89D590441558D8F5007E41AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		89D590451558D8F5007E41AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		89D590471558D8F5007E41AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		89D590481558D8F5007E41AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89D590361558D8F4007E41AA /* Build configuration list for PBXProject "Week10Lab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89D590441558D8F5007E41AA /* Debug */,
+				89D590451558D8F5007E41AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89D590461558D8F5007E41AA /* Build configuration list for PBXNativeTarget "Week10Lab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89D590471558D8F5007E41AA /* Debug */,
+				89D590481558D8F5007E41AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89D590331558D8F4007E41AA /* Project object */;
+}
